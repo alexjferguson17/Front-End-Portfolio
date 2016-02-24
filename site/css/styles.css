@@ -1,7 +1,45 @@
 body {
-  background-color: #34314c; }
+  background-color: #34314c;
+  font-family: 'Lato', sans-serif; }
 
 p {
   text-align: center;
   color: white;
   font-size: 3em; }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.about-me {
+  position: relative;
+  margin-top: 500px;
+  font-weight: 300;
+  font-size: 8px; }
+
+#name {
+  color: #ffc952;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+#title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300; }
+
+#location {
+  font-size: 16px;
+  opacity: 0.2;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+#menu {
+  float: right;
+  width: 33px;
+  height: 33px;
+  margin-top: 35px;
+  margin-right: 35px; }
